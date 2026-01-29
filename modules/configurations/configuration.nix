@@ -24,10 +24,10 @@
   ];
 
   console = {
-    font = "Lat2-Terminus16";
+    font = "ter-v32n";
+    packages = with pkgs; [ terminus_font ];
     keyMap = "us";
   };
-
 
   fonts = {
     enableDefaultPackages = true;
