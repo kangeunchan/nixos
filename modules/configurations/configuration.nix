@@ -23,6 +23,11 @@
     curl
   ];
 
+  console = {
+    font = "ter-v32n";
+    packages = with pkgs; [ terminus_font ];
+  };
+
   fonts = {
     enableDefaultPackages = true;
     packages = with pkgs; [
