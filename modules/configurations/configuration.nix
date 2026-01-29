@@ -9,7 +9,7 @@
 
   time.timeZone = "Asia/Seoul";
 
-  i18n.defaultLocale = "ko_KR.UTF-8";
+  i18n.defaultLocale = "en_US.UTF-8";
 
   users.users.rkddmscks = {
     isNormalUser = true;
