@@ -14,7 +14,7 @@
       modules = [
         disko.nixosModules.disko
         ./modules/systems/disks.nix
-        ./modules/configurations/configuration.nix
+        ./modules/configurations
       ];
     };
 
@@ -23,7 +23,7 @@
       modules = [
         disko.nixosModules.disko
         ./modules/systems/disks.nix
-        ./modules/configurations/configuration.nix
+        ./modules/configurations
       ];
     };
   };
