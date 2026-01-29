@@ -7,5 +7,6 @@
     wget
     curl
     kitty
+    foot
   ];
 }
